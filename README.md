@@ -1,1 +1,86 @@
 # sitecj
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SITECJ - Sindicato de Trabajadores de Entretenimiento, Casino y Juegos de Azar Mendoza</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+    header {
+      background: url('casino-2-web.avif') no-repeat center center;
+      background-size: cover;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav { background: #004080; padding: 10px; text-align: center; }
+    nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .logo { max-width: 150px; margin: 10px auto; display: block; background: white; padding: 10px; border-radius: 10px; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    h2 { color: #002f6c; }
+    footer { background: #002f6c; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpeg" alt="Logo SITECJ" class="logo">
+    <h1>SITECJ</h1>
+    <p>Sindicato de Trabajadores de Entretenimiento, Casino y Juegos de Azar - Mendoza</p>
+  </header>
+
+  <nav>
+    <a href="#quienes-somos">Quiénes Somos</a>
+    <a href="#afiliados">Afiliados</a>
+    <a href="#noticias">Noticias</a>
+    <a href="#normativa">Normativa</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="quienes-somos">
+    <h2>¿Quiénes Somos?</h2>
+    <p>Somos el Sindicato de Trabajadores de Entretenimiento, Casino y Juegos de Azar de Mendoza, representando y defendiendo los derechos laborales de quienes trabajan en el sector del entretenimiento y los juegos de azar. Nuestra misión es promover condiciones laborales justas, el respeto a la dignidad de los trabajadores y la mejora continua del ámbito laboral.</p>
+  </section>
+
+  <section id="afiliados">
+    <h2>Afiliados</h2>
+    <p>Afiliarse a SITECJ te brinda respaldo legal, acceso a beneficios sociales y formación sindical. Estamos para acompañarte en cada paso de tu desarrollo profesional.</p>
+    <ul>
+      <li>Asesoría legal y laboral</li>
+      <li>Convenios de salud y recreación</li>
+      <li>Capacitaciones y cursos</li>
+    </ul>
+  </section>
+
+  <section id="noticias">
+    <h2>Noticias y Comunicados</h2>
+    <p>Próximamente publicaremos novedades, comunicados oficiales y actividades sindicales.</p>
+  </section>
+
+  <section id="normativa">
+    <h2>Normativa y Convenios</h2>
+    <p>Encontrá aquí el estatuto del sindicato, convenios colectivos vigentes y material de consulta legal para los trabajadores del sector.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>📍 Dirección: Mendoza, Argentina</p>
+    <p>📞 Teléfono: (XXX) XXX-XXXX</p>
+    <p>✉️ Email: contacto@sitecj.org.ar</p>
+    <form>
+      <label>Nombre:<br><input type="text" name="nombre"></label><br><br>
+      <label>Email:<br><input type="email" name="email"></label><br><br>
+      <label>Mensaje:<br><textarea name="mensaje" rows="5"></textarea></label><br><br>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SITECJ - Sindicato de Trabajadores de Entretenimiento, Casino y Juegos de Azar Mendoza</p>
+  </footer>
+</body>
+</html>
+
+
+cambio actualizado
